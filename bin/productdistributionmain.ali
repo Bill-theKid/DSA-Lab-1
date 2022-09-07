@@ -1,0 +1,172 @@
+V "GNAT Lib v12"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLICIT_LOOPS
+RV MAX_TASKS=1+
+
+U productdistributionmain%b  productdistributionmain.adb  14d53b4d NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s
+Z ada.text_io.integer_io%s
+W distribution_service%s  distribution_service.adb  distribution_service.ali
+W food_datastructures%s	food_datastructures.adb	food_datastructures.ali
+W food_salesservice%s	food_salesservice.adb	food_salesservice.ali
+W gatekeeperservice%s	gatekeeperservice.adb	gatekeeperservice.ali
+W stats_fooddistribution%s  stats_fooddistribution.adb  stats_fooddistribution.ali
+W system%s		system.ads		system.ali
+Z system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+Z system.img_lli%s	s-imglli.ads		s-imglli.ali
+Z system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+Z system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+Z system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+Z system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+Z system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+Z system.val_lli%s	s-vallli.ads		s-vallli.ali
+Z system.val_llli%s	s-valllli.ads		s-valllli.ali
+
+D ada.ads		20220731224742 76789da1 ada%s
+D a-except.ads		20220731224742 2a7d8d70 ada.exceptions%s
+D a-flteio.ads		20220731224742 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20220731224742 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20220731224742 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20220731224742 84bea7a3 ada.numerics%s
+D a-nudira.ads		20220731224742 5984dff3 ada.numerics.discrete_random%s
+D a-nuflra.ads		20220731224742 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20220731224742 0240fc73 ada.real_time%s
+D a-stream.ads		20220731224742 119b8fb3 ada.streams%s
+D a-string.ads		20220731224742 90ac6797 ada.strings%s
+D a-sttebu.ads		20220731224742 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220731224742 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20220731224742 9eaa38c6 ada.tags%s
+D a-textio.ads		20220731224742 deada98a ada.text_io%s
+D a-tienio.ads		20220731224742 2e79c9bf ada.text_io.enumeration_io%s
+D a-tiflio.ads		20220731224742 fcca4daa ada.text_io.float_io%s
+D a-tigeau.ads		20220731224742 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinau.ads		20220731224742 3ca4fcff ada.text_io.integer_aux%s
+D a-tiinau.adb		20220731224742 199a0c7a ada.text_io.integer_aux%b
+D a-tiinio.ads		20220731224742 390edddb ada.text_io.integer_io%s
+D a-tiinio.adb		20220731224742 b79731f4 ada.text_io.integer_io%b
+D a-unccon.ads		20220731224742 0e9b276f ada.unchecked_conversion%s
+D circularque.ads	20220907161912 0452ae6e circularque%s
+D distribution_service.ads  20220831183339 e4fa9b10 distribution_service%s
+D food_datastructures.ads  20220831183412 bd9805c1 food_datastructures%s
+D food_salesservice.ads	20220831183503 ef36e4fb food_salesservice%s
+D gatekeeperservice.ads	20220831183606 f65830f4 gatekeeperservice%s
+D interfac.ads		20220731224742 edec285f interfaces%s
+D i-c.ads		20220731224742 2284bf7c interfaces.c%s
+D i-cstrea.ads		20220731224742 e53d8b8e interfaces.c_streams%s
+D productdistributionmain.adb  20220831183932 d1c25cac productdistributionmain%b
+D stats_fooddistribution.ads  20220831183702 5bb684b5 stats_fooddistribution%s
+D system.ads		20220731224742 a2da961d system%s
+D s-atacco.ads		20220731224742 4c36d12f system.address_to_access_conversions%s
+D s-casuti.ads		20220731224742 cf13d755 system.case_util%s
+D s-crtl.ads		20220731224742 8a0692f8 system.crtl%s
+D s-exctab.ads		20220731224742 91bef6ef system.exception_table%s
+D s-ficobl.ads		20220731224742 dc5161d4 system.file_control_block%s
+D s-imageb.ads		20220731224742 3953e0e6 system.image_b%s
+D s-imagei.ads		20220731224742 0d3f86a7 system.image_i%s
+D s-imagew.ads		20220731224742 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20220731224742 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20220731224742 bdb6f5ec system.img_int%s
+D s-imgllb.ads		20220731224742 47d0db9f system.img_llb%s
+D s-imglli.ads		20220731224742 3723d9ff system.img_lli%s
+D s-imglllb.ads		20220731224742 30212eed system.img_lllb%s
+D s-imgllli.ads		20220731224742 5cf3dc07 system.img_llli%s
+D s-imglllw.ads		20220731224742 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20220731224742 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20220731224742 912a95f2 system.img_wiu%s
+D s-linux.ads		20220731224742 34850a8c system.linux%s
+D s-multip.ads		20220731224742 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20220731224742 d98e680e system.os_constants%s
+D s-osinte.ads		20220731224742 e4f53740 system.os_interface%s
+D s-parame.ads		20220731224742 d494a4a6 system.parameters%s
+D s-putima.ads		20220731224742 4e095881 system.put_images%s
+D s-rannum.ads		20220731224742 95815eca system.random_numbers%s
+D s-secsta.ads		20220731224742 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20220731224742 df77073e system.soft_links%s
+D s-stache.ads		20220731224742 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20220731224742 5be75682 system.stack_usage%s
+D s-stalib.ads		20220731224742 1c9580f6 system.standard_library%s
+D s-stoele.ads		20220731224742 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20220731224742 8f5a9db6 system.storage_elements%b
+D s-tasinf.ads		20220731224742 528dde74 system.task_info%s
+D s-taspri.ads		20220731224742 4ec891e7 system.task_primitives%s
+D s-taprop.ads		20220731224742 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20220731224742 0ec7ab0b system.tasking%s
+D s-tassta.ads		20220731224742 cca55c94 system.tasking.stages%s
+D s-traent.ads		20220731224742 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20220731224742 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20220731224742 85ddbf9c system.val_int%s
+D s-vallli.ads		20220731224742 88ead33b system.val_lli%s
+D s-valllli.ads		20220731224742 e68d7c3d system.val_llli%s
+D s-vallllu.ads		20220731224742 fcd04714 system.val_lllu%s
+D s-valllu.ads		20220731224742 ca6e26ce system.val_llu%s
+D s-valuns.ads		20220731224742 e8a1f424 system.val_uns%s
+D s-valuti.ads		20220731224742 4d0d41f3 system.val_util%s
+D s-valuei.ads		20220731224742 75953b98 system.value_i%s
+D s-valueu.ads		20220731224742 eb2f4477 system.value_u%s
+D s-wchcon.ads		20220731224742 d9032363 system.wch_con%s
+D unchconv.ads		20220731224742 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [productdistributionmain standard 22 11 none]
+G r s product_generator [productdistributionmain standard 22 11 none] [product_generatorVIP distribution_service 24 5 none]
+G r s retailsales [productdistributionmain standard 22 11 none] [retailsalesVIP food_salesservice 12 5 none]
+G r q none [productdistributionmain standard 22 11 none] [product_generator distribution_service 24 15 none]
+G r q none [productdistributionmain standard 22 11 none] [retailsales food_salesservice 12 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 32|10r6 10r23 24r27
+X 15 a-textio.ads
+58K13*Text_IO 727e16 32|10w10 10r27 24r31
+263U14*New_Line 32|36s5 39s5
+464U14*Put 32|34s5 37s5
+X 21 a-tiinio.ads
+46k21*Integer_IO 108e27 32|24r39
+59U14 Get 32|35s5[24] 38s5[24]
+X 25 distribution_service.ads
+22K9*Distribution_Service 26e25 32|16w6 16r32
+24T15*Product_Generator 32|42r61
+X 26 food_datastructures.ads
+15K9*Food_DataStructures 51e24 32|12w6 12r31
+X 27 food_salesservice.ads
+11K9*Food_SalesService 14e22 32|18w6 18r29
+12T15*RetailSales 32|43r47
+X 28 gatekeeperservice.ads
+21K9*GateKeeperService 33e22 32|20w6 20r29
+X 32 productdistributionmain.adb
+22U11*ProductDistributionMain 22b11 48l5 48t28
+24K13 INt_IO[21|46] 25r9
+27i5 numProductGenerators{positive} 35m10 42r36
+28i5 numPOS{positive} 38m10 43r36
+42a9 FarmProducts(25|24T15)
+43a9 POS(27|12T15)
+X 33 stats_fooddistribution.ads
+21K9*Stats_FoodDistribution 32|14w6 14r34 33|36e27
+X 62 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+
