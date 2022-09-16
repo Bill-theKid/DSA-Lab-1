@@ -10,7 +10,7 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 
-U circularque%b		circularque.adb		b55360ba NE OO PK GE
+U circularque%b		circularque.adb		6046f61a NE OO PK GE
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -31,7 +31,7 @@ Z system.val_int%s	s-valint.ads		s-valint.ali
 Z system.val_lli%s	s-vallli.ads		s-vallli.ali
 Z system.val_llli%s	s-valllli.ads		s-valllli.ali
 
-U circularque%s		circularque.ads		daff07e4 BN EE NE OO PK GE
+U circularque%s		circularque.ads		88d9d1c4 BN EE NE OO PK GE
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -51,8 +51,8 @@ D a-tiinau.adb		20220731224742 199a0c7a ada.text_io.integer_aux%b
 D a-tiinio.ads		20220731224742 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20220731224742 b79731f4 ada.text_io.integer_io%b
 D a-unccon.ads		20220731224742 0e9b276f ada.unchecked_conversion%s
-D circularque.ads	20220907161912 0452ae6e circularque%s
-D circularque.adb	20220831153132 b101ced4 circularque%b
+D circularque.ads	20220916195330 5674784e circularque%s
+D circularque.adb	20220916195330 36328e54 circularque%b
 D interfac.ads		20220731224742 edec285f interfaces%s
 D i-cstrea.ads		20220731224742 e53d8b8e interfaces.c_streams%s
 D system.ads		20220731224742 a2da961d system%s
@@ -99,26 +99,29 @@ X 1 ada.ads
 16K9*Ada 20e8 16|13r6 13r23 17|3r26
 X 9 a-textio.ads
 58K13*Text_IO 727e16 16|13w10 13r27 17|3r30
-263U14*New_Line 17|20s13 32s13
-464U14*Put 17|19s13 31s13
+263U14*New_Line 17|20s13 32s13 66s13
+464U14*Put 17|19s13 31s13 65s13
 X 13 a-tiinio.ads
 46k21*Integer_IO 108e27 17|3r38
 X 16 circularque.ads
-16+10 message 21r39 23r42 17|9r40 12r39 24r42
+16+10 message 21r39 23r42 29r37 17|9r40 12r39 24r42 54r36
 17i5 capacity{natural} 17|6r46 8r39 10r30 15r42 27r39
-19k9*CircularQue 16z10 17z5 30l5 30e16 17|1b14 54l5 54t16
+19k9*CircularQue 16z10 17z5 32l5 32e16 17|1b14 70l5 70t16
 21U15*acceptMessage 21>30 17|12b15 22l9 22t22
 21*30 msg{16+10} 17|12b30 16r27
 23U15*retrieveMessage 23<32 17|24b15 34l9 34t24
 23*32 msg{16+10} 17|24b32 28m13
 25V14*circularQueEmpty{boolean} 17|36b14 43l9 43t25
 27V14*circularQueFull{boolean} 17|45b14 52l9 52t24
+29U15*insertFront 29>28 17|54b15 68l9 68t20
+29*28 msg{16+10} 17|54b27 57r27
 X 17 circularque.adb
 3K13 IntIO[13|46] 4r9
 6I13 slotindex{natural} 7r19 9r26
-7i5 front{6I13} 27m13 27r24 28r28
+7i5 front{6I13} 27m13 27r24 28r28 57r17 58r16 59m17 61m17 61r26
 7i12 rear{6I13} 15m13 15r28 16r18
-8i5 mesnum{natural} 14r12 17m13 17r27 26r12 29m13 29r23 38r12 47r12
-9a5 box(16|16+10) 16m13 28r23
-10i5 maxMessages{natural} 14r21 47r21
+8i5 mesnum{natural} 14r12 17m13 17r27 26r12 29m13 29r23 38r12 47r12 56r12
+. 63m13 63r23
+9a5 box(16|16+10) 16m13 28r23 57m13
+10i5 maxMessages{natural} 14r21 47r21 56r21 59r26
 
