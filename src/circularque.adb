@@ -51,4 +51,20 @@ package body CircularQue is
         end if;
     end CircularQueFull;
 
+    procedure insertFront(msg : in message) is
+    begin
+        if mesnum < maxMessages then
+            box(front) := msg;
+            if front = 0 then
+                front := maxMessages;
+            else    
+                front := front - 1;
+            end if;
+            mesnum := mesnum + 1;
+        else
+            Put ("ERROR - Message rejected - queue is full!");
+            New_Line (2);
+        end if;
+    end insertFront;
+
 end CircularQue;

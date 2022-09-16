@@ -26,5 +26,7 @@ package CircularQue is
 
     function circularQueFull return Boolean;
 
+    procedure insertFront (msg : in message);
+
     --Add method (function or procedure) for inserting at front of queue here and in body.
 end CircularQue;
