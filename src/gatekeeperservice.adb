@@ -8,10 +8,13 @@ package body GateKeeperService is
 
     task body GateKeeper is
 
-        package CircularQueue is new CircularQue(Food_Pack, 4); -- default size 10.
+        package CircularQueue is new CircularQue(Food_Pack, 10); -- default size 10.
         use CircularQueue;
 
         rejected : Integer := 0;
+        total_packs : Integer := 0;
+        meat_packs : Integer := 0;
+        other_packs : Integer := 0;
         -- Declare food packet counters here.
 
         Start_Time : Ada.Calendar.Time;
@@ -72,6 +75,12 @@ package body GateKeeperService is
                         PrintFood_Pack(newFood);
                         Put(" Removed by GateKeeper for shipment.");
                         New_Line;
+                        if (getFood_PackFoodType(newFood) < Steak) then
+                            other_packs := other_packs + 1;
+                        elsif (getFood_PackFoodType(newFood) >= Steak) then
+                            meat_packs := meat_packs + 1;
+                        end if;
+                        total_packs := total_packs + 1;
                     end if;
                 end retrieveMessage;
             end select;
@@ -84,6 +93,12 @@ package body GateKeeperService is
         New_Line(2);
         Put("Hours of operation prior to closing: ");
         Ada.Text_IO.Put_Line(Duration'Image(Ada.Calendar.Clock - Start_Time));
+        Put("Meat Packs Processed: ");
+        Ada.Text_IO.Put_Line(Integer'Image(meat_packs));
+        Put("Non-meat Packs Processed: ");
+        Ada.Text_IO.Put_Line(Integer'Image(other_packs));
+        Put("Total Packets Processed: ");
+        Ada.Text_IO.Put_Line(Integer'Image(total_packs));
         New_Line (2);
 
     end GateKeeper;
