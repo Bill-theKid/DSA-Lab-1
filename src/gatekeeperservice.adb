@@ -8,7 +8,7 @@ package body GateKeeperService is
 
     task body GateKeeper is
 
-        package CircularQueue is new CircularQue(Food_Pack, 20); -- default size 10.
+        package CircularQueue is new CircularQue(Food_Pack, 2); -- default size 10.
         use CircularQueue;
 
         rejected : Integer := 0;
