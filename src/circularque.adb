@@ -4,7 +4,7 @@ package body CircularQue is
     use IntIO;
 
     subtype slotindex is Natural range 0 .. (capacity - 1);  -- Natural implies >= 0.
-    front, rear : slotindex := 0;  -- insert at front, remove from rear.
+    front, rear, pt : slotindex := 0;  -- insert at front, remove from rear.
     mesnum      : Natural range 0 .. (capacity - 1) := 0; -- number in buff
     box         : array (slotindex) of message; -- circular buffer
     maxMessages : Natural := capacity - 1; -- Integers >= 0.

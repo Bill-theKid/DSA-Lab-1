@@ -32,11 +32,7 @@ Next grain shipment arrives  3.28606E-01 Time units!
 Retail Sales successfuly sold RICE B
 B delivered. 
 
- Rejected by GateKeeper: 
-CORN B
- Rejected =           1. Sent to another distribution facility!
-
-
+GateKeeper insert accepted CORN B
 Next grain shipment arrives  1.38356E+00 Time units!
 
 SQUASH B Removed by GateKeeper for shipment.
@@ -59,71 +55,70 @@ M delivered.
 GateKeeper insert accepted FISH M
 Next grain shipment arrives  6.55132E+00 Time units!
 
+CORN B Removed by GateKeeper for shipment.
+Retail Sales successfuly sold SQUASH B
 FOWEL M Removed by GateKeeper for shipment.
-TOMATO B Removed by GateKeeper for shipment.
-Retail Sales successfuly sold SQUASH B
-FISH M Removed by GateKeeper for shipment.
-Retail Sales successfuly sold FISH M
-Retail Sales successfuly sold FISH M
-Retail Sales successfuly sold SQUASH B
 B delivered. 
 
-Retail Sales successfuly sold SQUASH B
 GateKeeper insert accepted POTATOES B
+Next grain shipment arrives  2.07654E+00 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  1.82194E-01 Time units!
+
+B delivered. 
+
+Retail Sales successfuly sold CORN B
+Retail Sales successfuly sold FOWEL M
+GateKeeper insert accepted TOMATO B
 Next grain shipment arrives  1.30332E+00 Time units!
 
-POTATOES B Removed by GateKeeper for shipment.
-B delivered. 
-
-Retail Sales successfuly sold TOMATO B
-GateKeeper insert accepted TOMATO B
-Next grain shipment arrives  1.25255E+00 Time units!
-
-Retail Sales successfuly sold POTATOES B
-Retail Sales successfuly sold FOWEL M
 TOMATO B Removed by GateKeeper for shipment.
-B delivered. 
-
-GateKeeper insert accepted TOMATO B
-Next grain shipment arrives  3.47441E+00 Time units!
-
-TOMATO B Removed by GateKeeper for shipment.
-Retail Sales successfuly sold TOMATO B
 B delivered. 
 
 GateKeeper insert accepted WHEAT B
-Next grain shipment arrives  3.51390E+00 Time units!
+Next grain shipment arrives  1.25255E+00 Time units!
 
 Retail Sales successfuly sold TOMATO B
-WHEAT B Removed by GateKeeper for shipment.
-Retail Sales successfuly sold WHEAT B
-Retail Sales successfuly sold POTATOES B
-Retail Sales successfuly sold TOMATO B
-Retail Sales successfuly sold TOMATO B
+FISH M Removed by GateKeeper for shipment.
 M delivered. 
 
 GateKeeper insert accepted STEAK M
-Next grain shipment arrives  1.97321E-01 Time units!
+Next grain shipment arrives  3.47441E+00 Time units!
 
+POTATOES B Removed by GateKeeper for shipment.
 M delivered. 
 
 GateKeeper insert accepted FOWEL M
-Next grain shipment arrives  3.60628E-01 Time units!
+Next grain shipment arrives  2.12928E+00 Time units!
 
+Retail Sales successfuly sold FISH M
+TOMATO B Removed by GateKeeper for shipment.
+Retail Sales successfuly sold TOMATO B
+TOMATO B Removed by GateKeeper for shipment.
 B delivered. 
 
-GateKeeper insert accepted WHEAT B
-Next grain shipment arrives  3.23951E+00 Time units!
-
-STEAK M Removed by GateKeeper for shipment.
-Retail Sales successfuly sold STEAK M
+Retail Sales successfuly sold POTATOES B
 Retail Sales successfuly sold TOMATO B
-FOWEL M Removed by GateKeeper for shipment.
+GateKeeper insert accepted WHEAT B
+Next grain shipment arrives  6.39829E-01 Time units!
 
-
-Hours of operation prior to closing:  40.867121000
-
-
+WHEAT B Removed by GateKeeper for shipment.
 M delivered. 
 
-Retail Sales successfuly sold FOWEL M
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  1.97321E-01 Time units!
+
+Retail Sales successfuly sold WHEAT B
+B delivered. 
+
+
+
+Hours of operation prior to closing:  40.356205000
+Meat Packs Processed:  2
+Non-meat Packs Processed:  11
+Total Packets Processed:  13
+
+

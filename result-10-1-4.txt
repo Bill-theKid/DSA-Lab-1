@@ -32,11 +32,7 @@ Next grain shipment arrives  3.28606E-01 Time units!
 Retail Sales successfuly sold RICE B
 B delivered. 
 
- Rejected by GateKeeper: 
-CORN B
- Rejected =           1. Sent to another distribution facility!
-
-
+GateKeeper insert accepted CORN B
 Next grain shipment arrives  1.38356E+00 Time units!
 
 SQUASH B Removed by GateKeeper for shipment.
@@ -59,28 +55,29 @@ M delivered.
 GateKeeper insert accepted FISH M
 Next grain shipment arrives  6.55132E+00 Time units!
 
+CORN B Removed by GateKeeper for shipment.
 FOWEL M Removed by GateKeeper for shipment.
-TOMATO B Removed by GateKeeper for shipment.
 Retail Sales successfuly sold SQUASH B
+TOMATO B Removed by GateKeeper for shipment.
+Retail Sales successfuly sold TOMATO B
 FISH M Removed by GateKeeper for shipment.
-Retail Sales successfuly sold FISH M
-Retail Sales successfuly sold FISH M
-Retail Sales successfuly sold FISH M
+Retail Sales successfuly sold TOMATO B
+Retail Sales successfuly sold TOMATO B
 B delivered. 
 
-Retail Sales successfuly sold SQUASH B
+Retail Sales successfuly sold FISH M
 GateKeeper insert accepted POTATOES B
 Next grain shipment arrives  1.30332E+00 Time units!
 
 POTATOES B Removed by GateKeeper for shipment.
 B delivered. 
 
-Retail Sales successfuly sold TOMATO B
+Retail Sales successfuly sold FOWEL M
 GateKeeper insert accepted TOMATO B
 Next grain shipment arrives  1.25255E+00 Time units!
 
 Retail Sales successfuly sold POTATOES B
-Retail Sales successfuly sold FOWEL M
+Retail Sales successfuly sold CORN B
 TOMATO B Removed by GateKeeper for shipment.
 B delivered. 
 
@@ -97,7 +94,7 @@ Next grain shipment arrives  3.51390E+00 Time units!
 Retail Sales successfuly sold TOMATO B
 WHEAT B Removed by GateKeeper for shipment.
 Retail Sales successfuly sold WHEAT B
-Retail Sales successfuly sold FOWEL M
+Retail Sales successfuly sold CORN B
 Retail Sales successfuly sold TOMATO B
 Retail Sales successfuly sold TOMATO B
 M delivered. 
@@ -121,7 +118,10 @@ Retail Sales successfuly sold WHEAT B
 FOWEL M Removed by GateKeeper for shipment.
 
 
-Hours of operation prior to closing:  40.963872000
+Hours of operation prior to closing:  40.972425000
+Meat Packs Processed:  4
+Non-meat Packs Processed:  11
+Total Packets Processed:  15
 
 
 M delivered. 

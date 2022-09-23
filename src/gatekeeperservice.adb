@@ -8,7 +8,7 @@ package body GateKeeperService is
 
     task body GateKeeper is
 
-        package CircularQueue is new CircularQue(Food_Pack, 10); -- default size 10.
+        package CircularQueue is new CircularQue(Food_Pack, 20); -- default size 10.
         use CircularQueue;
 
         rejected : Integer := 0;
@@ -48,10 +48,17 @@ package body GateKeeperService is
                 -- new arrivals of food
                 accept acceptMessage(newFood : in Food_Pack) do
                     if not (circularQueFull) then
-                        CircularQueue.acceptMessage(newFood);
-                        Put("GateKeeper insert accepted ");
-                        PrintFood_Pack(newFood);
-                        New_Line;
+                        -- if getFood_PackFoodType(newFood) in GrainVegetable then
+                            CircularQueue.acceptMessage(newFood);
+                            Put("GateKeeper insert accepted ");
+                            PrintFood_Pack(newFood);
+                            New_Line;
+                        --  else 
+                        --      CircularQueue.insertFront(newFood);
+                        --      Put("Gatekeeper insertFront accepted ");
+                        --      PrintFood_Pack(newFood);
+                        --      New_Line;
+                        --  end if;
                     else
                         rejected := rejected + 1;
                         Put(" Rejected by GateKeeper: ");
