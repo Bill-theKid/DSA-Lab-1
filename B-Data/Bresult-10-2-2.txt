@@ -1,0 +1,78 @@
+How many Product Generators?  
+How many points of sale?  
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  9.93067E-01 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  1.27761E+00 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  4.34619E-01 Time units!
+
+B delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  8.03268E-01 Time units!
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  1.22679E+00 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted CORN B
+Next grain shipment arrives  3.28606E-01 Time units!
+
+M delivered. 
+
+B delivered. 
+
+Gatekeeper insertFront accepted FOWEL M
+Next grain shipment arrives  2.27514E+00 Time units!
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  8.79319E+00 Time units!
+
+FOWEL M Removed by GateKeeper for shipment.
+M delivered. 
+
+Gatekeeper insertFront accepted FISH M
+Next grain shipment arrives  2.00817E-01 Time units!
+
+Retail Sales successfuly sold FOWEL M
+B delivered. 
+
+GateKeeper insert accepted POTATOES B
+Next grain shipment arrives  1.33046E+00 Time units!
+
+FISH M Removed by GateKeeper for shipment.
+B delivered. 
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  7.17555E+00 Time units!
+
+RICE B Removed by GateKeeper for shipment.
+Retail Sales successfuly sold FISH M
+RICE B Removed by GateKeeper for shipment.
+Retail Sales successfuly sold RICE B
+B delivered. 
+
+
+
+Hours of operation prior to closing:  17.200956000
+Meat Packs Processed:  2
+Non-meat Packs Processed:  2
+Total Packets Processed:  4
+
+
+B delivered. 
+
+Retail Sales successfuly sold RICE B

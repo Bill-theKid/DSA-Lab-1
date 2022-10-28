@@ -1,5 +1,6 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Calendar; use Ada.Calendar;
+with Food_DataStructures; use Food_DataStructures;
 
 package body GateKeeperService is
 
@@ -8,7 +9,7 @@ package body GateKeeperService is
 
     task body GateKeeper is
 
-        package CircularQueue is new CircularQue(Food_Pack, 5); -- default size 10.
+        package CircularQueue is new CircularQue(Food_Pack, 10); -- default size 10.
         use CircularQueue;
 
         rejected : Integer := 0;
@@ -20,12 +21,16 @@ package body GateKeeperService is
         Start_Time : Ada.Calendar.Time;
         End_Time : Ada.Calendar.Time;
 
+        recalled_food : Food_Pack;
+
     begin
 
         delay 0.5;  -- allow 1/2 hour to initialize facility.
         Start_Time := Ada.Calendar.Clock;
         End_Time := Start_Time + 1.0 * 8.0 * 2.0; 
         -- 1.0 sec./hour * 8 hours/days * 2 days
+
+        setFood_PackFoodType (recalled_food, Food_DataStructures.RandomFoodType);
 
         -- Terminate after losing 5 customers or time to close has arrived.
         while rejected < 5 and Ada.Calendar.Clock < End_Time
@@ -47,7 +52,13 @@ package body GateKeeperService is
             select
                 -- new arrivals of food
                 accept acceptMessage(newFood : in Food_Pack) do
-                    if not (circularQueFull) then
+                    if getFood_PackFoodType(newFood) = getFood_PackFoodType(recalled_food) then
+                        Put(" Rejected by Gatekeeper: ");
+                        New_Line;
+                        PrintFood_Pack(newFood);
+                        Put(" recalled");
+                        New_Line(3);
+                    elsif not (circularQueFull) then
                         if getFood_PackFoodType(newFood) in GrainVegetable then
                             CircularQueue.acceptMessage(newFood);
                             Put("GateKeeper insert accepted ");

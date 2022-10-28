@@ -1,0 +1,98 @@
+How many Product Generators?  
+How many points of sale?  
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  9.14843E-02 Time units!
+
+B delivered. 
+
+B delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  4.34619E-01 Time units!
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  1.21749E-01 Time units!
+
+B delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  1.64006E+00 Time units!
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  1.22679E+00 Time units!
+
+M delivered. 
+
+GateKeeper insert accepted CORN B
+Next grain shipment arrives  1.57520E+00 Time units!
+
+B delivered. 
+
+Gatekeeper insertFront accepted FOWEL M
+Next grain shipment arrives  2.27514E+00 Time units!
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  1.02896E+00 Time units!
+
+M delivered. 
+
+Gatekeeper insertFront accepted FISH M
+Next grain shipment arrives  2.00817E-01 Time units!
+
+B delivered. 
+
+B delivered. 
+
+B delivered. 
+
+ Rejected by GateKeeper: 
+POTATOES B
+ Rejected =           1. Sent to another distribution facility!
+
+
+Next grain shipment arrives  3.06212E+00 Time units!
+
+ Rejected by GateKeeper: 
+TOMATO B
+ Rejected =           2. Sent to another distribution facility!
+
+
+Next grain shipment arrives  6.55132E+00 Time units!
+
+ Rejected by GateKeeper: 
+TOMATO B
+ Rejected =           3. Sent to another distribution facility!
+
+
+Next grain shipment arrives  7.17555E+00 Time units!
+
+FISH M Removed by GateKeeper for shipment.
+Retail Sales successfuly sold FISH M
+B delivered. 
+
+GateKeeper insert accepted WHEAT B
+Next grain shipment arrives  2.07654E+00 Time units!
+
+FOWEL M Removed by GateKeeper for shipment.
+
+
+Hours of operation prior to closing:  16.508485000
+Meat Packs Processed:  2
+Non-meat Packs Processed:  0
+Total Packets Processed:  2
+
+
+Retail Sales successfuly sold FOWEL M
+M delivered. 
+
+M delivered. 
+
+B delivered. 
+

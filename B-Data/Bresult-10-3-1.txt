@@ -1,0 +1,17 @@
+How many Product Generators?  
+How many points of sale?  
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  9.14843E-02 Time units!
+
+B delivered. 
+
+B delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  4.34619E-01 Time units!
+
