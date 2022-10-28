@@ -24,8 +24,8 @@ package body GateKeeperService is
 
         delay 0.5;  -- allow 1/2 hour to initialize facility.
         Start_Time := Ada.Calendar.Clock;
-        End_Time := Start_Time + 1.0 * 8.0 * 5.0; 
-        -- 1.0 sec./hour * 8 hours/days * 5 days
+        End_Time := Start_Time + 1.0 * 8.0 * 2.0; 
+        -- 1.0 sec./hour * 8 hours/days * 2 days
 
         -- Terminate after losing 5 customers or time to close has arrived.
         while rejected < 5 and Ada.Calendar.Clock < End_Time
